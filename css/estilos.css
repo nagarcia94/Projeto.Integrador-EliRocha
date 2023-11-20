@@ -1,0 +1,100 @@
+
+
+* { box-sizing: border-box;}
+:root {
+    --cor-destaque: #FBB040;
+    --cor-agendar: #00A651;
+    --cor-letras:  #000;
+}
+
+body, h1, h2, p, figure, .menu {
+    margin:0;
+    padding: 0;
+}
+
+
+
+.destaque1{
+    background-color: var(--cor-destaque);
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.logo img
+{
+    width: 70%;
+    margin-left: -150px;
+    
+}
+
+header {
+    position: sticky;
+    z-index: 100px;
+    background-color:white rgb(241, 238, 238);
+    margin-top: 20px;
+}
+
+.limitador {
+    display: flex;
+    align-items:normal;
+    justify-content: space-around;
+    height: 20vh;
+   
+  
+
+}
+.conteudohome img {
+    width: 100%;
+    padding: 0px;
+    margin-right: 50px;
+}
+
+.conteudohome {
+    display: flex;
+}
+
+p {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+nav h2 a {
+    font-size: 2rem;
+    padding: 1rem;
+    display: inline-block;
+    color: var(--cor-letras);
+    font-weight: bold;
+    text-decoration: none;
+}
+nav h2 a:hover, nav h2 a:focus, 
+.menu a:hover, .menu a:focus {
+    background-color:#f4af48db
+}
+.menu {
+    list-style: none;
+    display: none;
+    
+    
+}
+
+.menu a {
+    color: var(--cor-letras);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+ .home, .servico, .dicas, .agendar, .sobre  {
+    background-color: var(--cor-destaque);
+    margin: 20px;
+   padding: 10px;
+   max-height: 55px;
+}
