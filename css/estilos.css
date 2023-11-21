@@ -153,26 +153,27 @@ nav h2 a:hover, nav h2 a:focus,
     padding: 10px;
     height: 40vh;
     max-height: 500px;
-    max-width:100%
+    max-width:150%
 }
 
 .footer figure img {
-    width: 80%;
+    width: 240px;
+    margin-bottom: 100px;
+    
 }
 
-.endereco p {
-    font-size: 15px;
-    width: 60%;
+.footer p {
+    font-size: 18px;
+    width: 40%;
     padding: 10px;
-    margin-bottom: auto;
-    display: flex;
+    background-color: #ff6804;
     
 }
 .redesocial nav img {
-    width: 5%;
-    display:inline;
+    width: 30px;
+    display:flex;
     margin: 7px;
-   
+   background-color: #00A651;
 }
  .linkconsulta 
  {
