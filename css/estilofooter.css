@@ -36,28 +36,43 @@ footer {
 
 .footer-col h3 {
     font-size: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     margin-top: 20px;
     font-weight: 300;
     position: relative;
     text-transform: uppercase;
     text-align: center;
-    
+    font-weight: bold;
 }
 
 .footer-col img {
     width: 300px;
+    margin:auto;
     
 }
+
+.footer-col img:hover {
+    c
+}
+.footer-col  a:hover{
+    color: black;
+
+
+}
+
+.footer-col address {
+    width: 700px;
+    text-align: center;
+    margin-left: 300px;
+}
 .footer-col a {
-    font-size: 16px;
+    font-size: 20px;
     text-transform: capitalize;
     color: white;
-    font-weight: 300;
     display: block;
-    transition: all 0.3s ease;
     text-decoration: none;
     text-align: center;
+    margin-top: 20px;
     
 }
 
@@ -69,15 +84,15 @@ footer {
     display: inline;
     align-items:center;
     justify-content:center;
-    height: 60px;
-    width: 60px;
+    height:80px;
+    width: 80px;
     margin: 0 15px 15px 0;
     color: black;
     
 }
 
 .footer-col .medias-social a i {
-    font-size: 25px;
+    font-size: 40px;
     
 
 }
@@ -86,14 +101,12 @@ footer {
     border-bottom: 20px;
     border-radius: 10px;
     margin: auto;
-    width:200px;
-    
-   
+    width:400px;
     
 }
 
 .consulta i {
-    font-size: 22px;
+    font-size: 40px;
     text-align: right;
 }
 
