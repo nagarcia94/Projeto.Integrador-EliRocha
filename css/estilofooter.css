@@ -1,1 +1,106 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,500&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+footer {
+    background-color: rgba(243, 169, 31, 0.769);
+    padding: 20px 0;
+
+}
+
+.container-footer {
+    max-width: 1400px;
+    padding: 0 10px;
+    
+  
+
+}
+
+.row-footer{
+   display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.footer-col {
+    width: 100%;
+    padding: 0 15px;
+    text-align: center;
+    
+}
+
+.footer-col h3 {
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: 300;
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.footer-col img {
+    width: 300px;
+    
+}
+.footer-col a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+.footer-col .medias-social {
+    margin-top: 30px;
+    
+}
+.footer-col .medias-social a {
+    display: inline;
+    align-items:center;
+    justify-content:center;
+    height: 60px;
+    width: 60px;
+    margin: 0 15px 15px 0;
+    color: black;
+    
+}
+
+.footer-col .medias-social a i {
+    font-size: 25px;
+    
+
+}
+.consulta {
+    background-color: green;
+    border-bottom: 20px;
+    border-radius: 10px;
+    margin: auto;
+    width:200px;
+    
+   
+    
+}
+
+.consulta i {
+    font-size: 22px;
+    text-align: right;
+}
+
+.footer-col .medias-social a:hover{
+    color:white
+}
+
+.consulta i:hover{
+    color:black;
+}
