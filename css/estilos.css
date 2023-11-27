@@ -34,7 +34,7 @@ h2 {
 .logo img
 {
     width: 70%;
-    margin-left: -150px;
+    margin-left: -110px;
     
 }
 
@@ -42,14 +42,14 @@ header {
     position: sticky;
     z-index: 100px;
     background-color:white rgb(241, 238, 238);
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .limitador {
     display: flex;
     align-items:normal;
     justify-content: space-around;
-    height: 15vh;
+    height: 18vh;
    
   
 
@@ -126,21 +126,22 @@ nav h2 a:hover, nav h2 a:focus,
 /* crindo estilo para o depoimento */
 
 .testimonial-container {
-    max-width: 600px;
-    width: 100%;
+    max-width: 700px;
+    width: 600px;
+    height: 440px;
     text-align: center;
 }
 
 .testimonial {
     background-color:var(--cor-destaque);
     border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .testimonial p {
-    font-size: 16px;
+    font-size: 18px;
     color: #555;
 }
 
