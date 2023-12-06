@@ -185,16 +185,32 @@ nav h2 a:hover, nav h2 a:focus,
 .sobremim h2 
 {
     text-align: left;
+    font-size: 25px;
+}
+.sobremim p  {
+    font-size: 18px;
 }
 .conteudoSM {
     background-color: rgba(248, 247, 247, 0.719);
     padding: 3rem;
     border-radius: 6px;
+    flex-wrap: nowrap;
     display: flex;
-   justify-items: center;
+}
+.missao {
+    width: 300%;
+    padding: 30px;
+    
+}
+.missao ul li {
+    font-size: 18px;
 }
 
-
+.sobremim-img {
+    width: 100%;
+   
+  
+}
 
 
 
