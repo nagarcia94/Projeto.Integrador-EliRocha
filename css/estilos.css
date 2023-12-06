@@ -46,10 +46,13 @@ header {
 }
 
 .limitador {
-    display: flex;
-    align-items:normal;
-    justify-content: space-around;
+    width: 85vw;
+    margin: auto;
+   
     height: 18vh;
+    display: flex;
+    justify-content: space-around;
+   
    
   
 
@@ -168,6 +171,42 @@ nav h2 a:hover, nav h2 a:focus,
         
     }
   
+
+    /* criando estilo para a pagina SOBRE MIM */
+
+  
+.sobremim h1 {
+    background-color: var(--cor-destaque);
+    text-align: center;
+    font-size: 25px;
+    padding: 2px;
+}
+
+.sobremim h2 
+{
+    text-align: left;
+}
+.conteudoSM {
+    background-color: rgba(248, 247, 247, 0.719);
+    padding: 3rem;
+    border-radius: 6px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     @media screen and (min-width: 550px){
        
