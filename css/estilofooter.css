@@ -13,21 +13,12 @@ footer {
     align-items: center;
     height: 350px;
 
-
-
 }
 
 .container-footer {
     max-width: 1000px;
     margin: auto;
     
-
-    
-    
- 
-    
-  
-
 }
 
 .row-footer{
@@ -49,8 +40,6 @@ footer {
     width: 280px;
     margin:auto;
     position:relative;
-    
-    
  
 }
 
@@ -58,9 +47,9 @@ footer {
     top:-4px;box-shadow:0 4px 4px #999;
     transition: all .2s ease-in-out
 }
+
 .footer-col  a:hover{
     color: orange;
-
 
 }
 
@@ -78,10 +67,9 @@ footer {
     text-decoration: none;
     text-align: center;
     margin-top: 20px;
- 
-
     
 }
+
 
 .footer-col .medias-social {
     margin-top: 20px;
@@ -111,8 +99,6 @@ footer {
     margin: auto;
     width:250px;
     margin-bottom: 22px;
-   
-   
     
 }
 
@@ -131,3 +117,7 @@ footer {
 }
 
 
+@media screen and (min-width: 400px){
+    .container-footer { max-width: 900px;}
+
+}
