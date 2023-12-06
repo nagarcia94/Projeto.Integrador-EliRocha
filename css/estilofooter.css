@@ -9,13 +9,22 @@
 
 footer {
     background-color: white;
-    padding: 20px 0;
+    padding: 5px 0;
+    align-items: center;
+    height: 350px;
+
+
 
 }
 
 .container-footer {
-    max-width: 1400px;
-    padding: 0 10px;
+    max-width: 1000px;
+    margin: auto;
+    
+
+    
+    
+ 
     
   
 
@@ -24,6 +33,7 @@ footer {
 .row-footer{
    display: flex;
     flex-wrap: wrap;
+    height: 350px;
     
 }
 
@@ -36,10 +46,12 @@ footer {
 
 
 .footer-col img {
-    width: 300px;
+    width: 280px;
     margin:auto;
     position:relative;
-    top:0
+    
+    
+ 
 }
 
 .footer-col img:hover {
@@ -53,38 +65,42 @@ footer {
 }
 
 .footer-col address {
-    width: 700px;
+    width: 550px;
     text-align: center;
-    margin-left: 300px;
+    margin-left: 200px;
+ 
 }
 .footer-col a {
-    font-size: 20px;
+    font-size: 15px;
     text-transform: capitalize;
     color: black;
     display: block;
     text-decoration: none;
     text-align: center;
     margin-top: 20px;
+ 
+
     
 }
 
 .footer-col .medias-social {
-    margin-top: 30px;
+    margin-top: 20px;
+    text-align: center;
     
 }
 .footer-col .medias-social a {
     display: inline;
     align-items:center;
     justify-content:center;
-    height:80px;
-    width: 80px;
+    height:50px;
+    width: 50px;
     margin: 0 15px 15px 0;
     color: black;
     
 }
 
 .footer-col .medias-social a i {
-    font-size: 40px;
+    font-size: 30px;
     
 
 }
@@ -93,13 +109,17 @@ footer {
     border-bottom: 20px;
     border-radius: 10px;
     margin: auto;
-    width:400px;
+    width:250px;
+    margin-bottom: 22px;
+   
+   
     
 }
 
 .consulta i {
-    font-size: 40px;
+    font-size: 22px;
     text-align: right;
+  
 }
 
 .footer-col .medias-social a:hover{
@@ -109,3 +129,5 @@ footer {
 .consulta i:hover{
     color:orange;
 }
+
+
