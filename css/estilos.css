@@ -220,12 +220,6 @@ nav h2 a:hover, nav h2 a:focus,
 
 
 
-.consulta-servicos{
-    font-family: 'Comfortaa', sans-serif;
-    font-size: 28px;
-    padding-top: 20px;
-}
-
 .explicacao{
     font-family: 'Arial', sans-serif;
     font-size: 22px;
@@ -242,20 +236,6 @@ nav h2 a:hover, nav h2 a:focus,
     
 }
 
-.avaliacao{
-    font-family: 'Comfortaa', sans-serif;
-    font-size: 28px;
-}
-
-.bioempedancia{
-    font-family: 'Comfortaa', sans-serif;
-    font-size: 28px;
-}
-
-.palestra{
-    font-family: 'Comfortaa', sans-serif;
-    font-size: 28px;
-}
 
 .contrate{
     padding: 10px;
@@ -264,12 +244,6 @@ nav h2 a:hover, nav h2 a:focus,
     color: white;
 }
 
-
-.grupoDeApoio{
-    font-family: 'Comfortaa', sans-serif;
-    font-size: 28px;
-    padding-top: 28px;
-}
 
 ul{
     font-family: 'Arial', sans-serif;
