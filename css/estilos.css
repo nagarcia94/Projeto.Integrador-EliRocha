@@ -218,13 +218,12 @@ nav h2 a:hover, nav h2 a:focus,
 
 /* Estilo para a página Serviços */
 
-.conteudoservicos{
-    background-color: rgba(169, 169, 169, 0.445);
-}
+
 
 .consulta-servicos{
     font-family: 'Comfortaa', sans-serif;
     font-size: 28px;
+    padding-top: 20px;
 }
 
 .explicacao{
@@ -242,6 +241,66 @@ nav h2 a:hover, nav h2 a:focus,
     color: white;
     
 }
+
+.avaliacao{
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 28px;
+}
+
+.bioempedancia{
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 28px;
+}
+
+.palestra{
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 28px;
+}
+
+.contrate{
+    padding: 10px;
+    border-radius: 100px;
+    background-color: #00A651;
+    color: white;
+}
+
+
+.grupoDeApoio{
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 28px;
+    padding-top: 28px;
+}
+
+ul{
+    font-family: 'Arial', sans-serif;
+    padding-left: 24px;
+    margin: auto;
+    justify-content: center;
+    text-align:justify;
+    font-size: 18px;
+
+}
+
+.botao-apoio{
+    padding: 10px;
+    color: white;
+    border-radius: 100px;
+    background-color: #00A651;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
