@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
             testimonialDiv.classList.add('testimonial');
 
             const photo = document.createElement('img');
-            photo.src = "imagens/sobre-mim.jpg"
+            photo.src = "imagens/imagem home.jpg"
             photo.alt = testimonial.author;
 
             // Adicionar estilos à imagem
