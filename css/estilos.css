@@ -216,14 +216,32 @@ nav h2 a:hover, nav h2 a:focus,
    
 }
 
+/* Estilo para a página Serviços */
 
+.conteudoservicos{
+    background-color: rgba(169, 169, 169, 0.445);
+}
 
+.consulta-servicos{
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 28px;
+}
 
+.explicacao{
+    font-family: 'Arial', sans-serif;
+    font-size: 22px;
+    text-align: justify;
+    padding: 14px;
 
+}
 
-
-
-
+.consulta-normal{
+    padding: 10px;
+    border-radius: 100px;
+    background-color: #00A651;
+    color: white;
+    
+}
 
 
 
