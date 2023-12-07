@@ -33,7 +33,7 @@ h2 {
 
 .logo img
 {
-    width: 550px;
+    width: 400px;
     margin-right: 1070px;
  
     
@@ -193,12 +193,17 @@ nav h2 a:hover, nav h2 a:focus,
 .conteudoSM {
     background-color: rgba(248, 247, 247, 0.719);
     padding: 3rem;
-    border-radius: 6px;
-    
+    border-radius: 6px;  
 }
+
+.conteudo01 {
+    display: flex;
+}
+
 .missao {
     width: 300%;
     padding: 30px;
+    
     
 }
 .missao ul li {
@@ -207,6 +212,7 @@ nav h2 a:hover, nav h2 a:focus,
 
 .sobremim-img {
     width: 100%;
+   
   
 }
 
@@ -274,7 +280,7 @@ ul{
 .dicasnutri h2 {
     text-align: left;
     background-color: var(--cor-destaque);
-    margin-right: 450px;
+    margin: auto;
     font-size: 23px;
 }
 
@@ -288,6 +294,38 @@ ul{
    margin: auto;
  }
 
+
+.feira img {
+   float: right;
+   width: 270px;
+   height: 420px;
+   margin-bottom: 220px;
+   
+}
+
+.higienizacao img {
+    float: right;
+   width: 160px;
+   height: 180px;
+   margin-bottom: 220px;
+}
+
+.armazenamento img {
+    float: right;
+   margin-bottom: 20px;
+   margin-left: 14px;
+}
+
+.ervas img {
+    float: right;
+   margin-bottom: 20px;
+   margin-left: 14px;
+}
+.agua img {
+    float: right;
+   margin-left: 14px;
+   height: 400px;
+}
 
 
 
