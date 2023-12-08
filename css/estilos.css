@@ -189,11 +189,13 @@ nav h2 a:hover, nav h2 a:focus,
 }
 .sobremim p  {
     font-size: 18px;
+    margin-top: -1px;
 }
 .conteudoSM {
     background-color: rgba(248, 247, 247, 0.719);
     padding: 3rem;
     border-radius: 6px;  
+    
 }
 
 .conteudo01 {
@@ -208,6 +210,7 @@ nav h2 a:hover, nav h2 a:focus,
 }
 .missao ul li {
     font-size: 18px;
+    margin-left: 30px;
 }
 
 .sobremim-img {
@@ -216,57 +219,59 @@ nav h2 a:hover, nav h2 a:focus,
   
 }
 
-.consulta a {
-    color: #000;
-    margin-left: 35px;  
+.botao1 a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    border-radius: 50px;
+    background-color:var(--cor-agendar);
+    margin-left: 20px;
    
+
 }
+.botao1 a:hover {
+    color: #FBB040;
+    top:-4px;box-shadow:0 4px 4px #999;
+    transition: all .2s ease-in-out;
+   
+    
+    
+}
+
+
+   
+
 
 /* Estilo para a página Serviços */
 
 
 
-.explicacao{
-    font-family: 'Arial', sans-serif;
+.servicos {
+    text-align: center;
     font-size: 22px;
-    text-align: justify;
-    padding: 14px;
-
+    padding: 2px;
+    background-color: var(--cor-destaque);
+    margin-top: 50px;
+    margin-bottom: -22px;
 }
-
-
-
-.contrate{
-    padding: 10px;
-    border-radius: 100px;
-    background-color: #00A651;
-    color: white;
+.consultas ul {
+    font-size: 22px;
+    margin-top: -30px;
+    margin-left: 35px;
+    
+    
 }
-
-
-ul{
-    font-family: 'Arial', sans-serif;
-    padding-left: 24px;
+.consultas p{
+    font-size: 17px;
     margin: auto;
-    justify-content: center;
-    text-align:justify;
-    font-size: 18px;
+    margin-left: 40px;
 
 }
 
-.botao{
-    padding: 10px;
-    color: white;
-    border-radius: 100px;
-    background-color: #00A651;
-    text-decoration: none;
+.consultas ol {
+    font-size: 17px;
+    margin-left: 60px;
 }
-
-
-
-
-
-
 
 
 /* criando estilo para a pagina DICAS NUTRI */
