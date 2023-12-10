@@ -182,24 +182,29 @@ contidos em Destaque. */
     justify-content: space-between;
     
 }
-.botao1 p {
+
+.botoes a {
+    color: #000;
+    font-size: 20px;
+}
+.botao2 p {
 
     background-color:var(--cor-destaque);
     border-radius: 20px;
     padding-right: 10px;
     padding-left: 10px;
     margin-right: 10px;
-    font-size: 16px;
+    
+
     
 
 }
-.botao2 p {
+.botao3 p {
     background-color: var(--cor-agendar);
     border-radius: 20px;
     padding-right: 10px;
     padding-left: 10px;
     margin-left: 10px;
-    font-size: 16px;
     
     
 }
