@@ -556,8 +556,7 @@ img {
 
 .dicasnutri {
     margin: auto;
-    max-width: 549px;
-   
+    max-width: 549px; 
 }
 
 .dicasnutri  { margin-bottom: 20px; }
@@ -567,8 +566,8 @@ img {
 .voltar, .avancar{
     position:absolute;
     bottom:100px;
-    background-color:lightblue;
-    color: chocolate;
+    background-color:#FBB040;
+    color:#00A651;
     text-decoration: none;
     z-index: 100;
     border-radius: 30px;
