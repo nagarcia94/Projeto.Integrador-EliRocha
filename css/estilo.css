@@ -449,16 +449,13 @@ address {
 
 .feira img {
    float: right;
-   width: 270px;
-   height: 420px;
    margin-bottom: 220px;
+   
    
 }
 
 .higienizacao img {
     float: right;
-   width: 200px;
-   height: 230px;
    margin-left: 30px;
   
 }
@@ -469,21 +466,20 @@ address {
 }
 
 .armazenamento img {
-    float: right;
+  float: right;
   margin-left: 15px;
-  width: 210px;
 }
 
 .ervas img {
-    float: right;
+   float: right;
    margin-bottom: 20px;
    margin-left: 14px;
-   width: 220px;
+  
 }
 .agua img {
-    float: right;
+   float: right;
    margin-left: 14px;
-   height: 300px;
+  
 }
 
 
