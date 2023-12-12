@@ -589,8 +589,14 @@ img {
 .dica h2 {
     text-align: center;
     color: var(--cor-agendar);
+  padding-top: 10px;
+  font-size: 25px;
 }
 
+.dica {
+
+    background-color: #ececec;
+}
 
 /* regras condicionais (Media Queries) */
 
