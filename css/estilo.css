@@ -227,27 +227,29 @@ contidos em Destaque. */
 }
 
 .pqconsultar h2 {
-    font-size: 28px;
+    font-size: 25px;
     text-align: center;
-
+    
 }
 .pqconsultar p {
     font-size: 18px;
     margin:auto;
     margin-bottom: 40px;
     text-align: left;
+   
 }
 
 .fotoeli {
     margin-top: 30px;
-    width: 120%;
-    height: 80vh; 
+    width: 90%;
+    height: auto;
 }
 
 .fotoeli img {
     border-radius: 30px;
-    height: 75vh;
     margin: 20px;
+    max-width: 100%;
+    height: auto;
     
     
 }
@@ -597,6 +599,12 @@ img {
 
     background-color: #ececec;
 }
+
+
+
+
+
+
 
 /* regras condicionais (Media Queries) */
 
