@@ -43,11 +43,11 @@ h1 {
 
  .logo{
     padding: 1.3rem 1rem;
-    width: 380px;
-    margin-left: -80px;
+    width: 800px;
+    height: auto; }
     
     
-}
+
 
 a { text-decoration: none; }
 
@@ -73,7 +73,7 @@ header {
 /* Formatação da palavra Menu */
 nav h2 a {
     color: var(--cor-escura);
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     padding: 1rem;
     display: inline-block;
 }
