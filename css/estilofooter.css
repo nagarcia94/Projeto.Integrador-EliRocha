@@ -92,29 +92,14 @@ footer {
     
 
 }
-.consulta {
-    background-color: green;
-    border-bottom: 20px;
-    border-radius: 10px;
-    margin: auto;
-    width:250px;
-    margin-bottom: 22px;
-    
-}
 
-.consulta i {
-    font-size: 22px;
-    text-align: right;
-  
-}
+
+
 
 .footer-col .medias-social a:hover{
     color:orange;
 }
 
-.consulta i:hover{
-    color:orange;
-}
 
 
 @media screen and (min-width: 400px){

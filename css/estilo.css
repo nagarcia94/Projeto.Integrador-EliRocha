@@ -1,0 +1,557 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Raleway:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,500&display=swap');
+
+
+* { box-sizing: border-box; }
+
+:root {
+    /* Variáveis para a 
+    paleta de cores do site */
+    --cor-titulo: #4d4d4d;
+    --cor-texto: #333;
+    --cor-escura: #000;
+    --cor-clara: #fff;
+    --cor-intermediaria: #ececec;
+    --cor-destaque: #FBB040;
+    --cor-agendar: #00A651;
+}
+
+html { font-size: 16px; }
+
+
+body {
+    color: var(--cor-texto);
+    font-family: 'Noto Sans', sans-serif;
+    background-color: var(--cor-clara);
+}
+
+
+/* CSS Reset em alguns elementos */
+body, h1, h2, p, figure, .menu {
+    margin: 0;
+    padding: 0;
+}
+
+img { max-width: 100%; }
+
+h1 {
+    font-family: Raleway, sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+ .logo{
+    padding: 1.3rem 1rem;
+    width: 380px;
+    margin-left: -80px;
+    
+    
+}
+
+a { text-decoration: none; }
+
+
+
+header .limitador {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 18vh;
+
+}
+
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: var(--cor-clara);
+}
+
+
+/* Formatação da palavra Menu */
+nav h2 a {
+    color: var(--cor-escura);
+    font-size: 1.2rem;
+    padding: 1rem;
+    display: inline-block;
+}
+
+nav h2 a:hover, nav h2 a:focus, 
+.menu a:hover, .menu a:focus {
+    background-color: var(--cor-intermediaria);
+}
+
+/* Regra da lista ul de links */
+.menu { 
+    list-style: none; 
+
+    /* 
+    Usando display:none para
+    não exibir inicialmente
+    a lista de links. */
+    display: none;
+}
+
+/* Regra para formatar os
+links contidos na lista/menu */
+.menu a {
+    color: var(--cor-escura);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px; 
+}
+
+
+
+/* Seletor de classes combinadas
+Esta regra somente irá funcionar quando
+AS DUAS CLASSES estiverem aplicadas JUNTAS no
+elemento HTML (no caso, na lista de menu/links). 
+
+Obs.: esta combinação será possível por meio
+da manipulação programada com JavaScript. */
+.menu.aberto {
+
+    /* O Flex fará a lista de links aparecer */
+    display: flex;
+
+    /* Com os links em forma de coluna (vertical) */
+    flex-direction: column;
+    
+    /* Usamos as propriedades de posicionamento
+    e coordenadas para garantir o encaixe correto
+    (abaixo do título e da palavra Menu). */
+    position: absolute;
+    left: 0;
+    right: 0;
+    
+    /* Aplicamos um fundo à lista evitando a
+    dificuldade de leitura dos links */
+    background-color: var(--cor-clara);
+}
+
+
+/*  regra CSS para formatar o h2 e o p
+contidos em Destaque. */
+
+.destaque {
+    height: 80vh;
+    background-image: url(../imagens/destaquehome.jpg);
+    background-attachment:fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    
+}
+
+
+
+.destaque h2, .destaque p { 
+    color:var(--cor-escura);
+   
+}
+
+.destaque h2 {
+    font-size: 40px;
+    position: relative;
+    right: 290px;
+
+}
+.orange {
+    color: var(--cor-destaque);
+}
+
+.destaque p {
+    font-size: 22px;
+    position: relative;
+    right: 290px;
+    
+}
+
+
+.botoes
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.botoes a {
+    color: #000;
+    font-size: 20px;
+}
+.botao2 p {
+
+    background-color:var(--cor-destaque);
+    border-radius: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 10px;
+    
+
+    
+
+}
+.botao3 p {
+    background-color: var(--cor-agendar);
+    border-radius: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+    
+    
+}
+
+/* criando estilo para pagina home: serviços que ofereço */
+
+
+.caixa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+
+
+.pqconsultar {
+    width: 150%;
+    margin-top: 40px;   
+}
+
+.pqconsultar h2 {
+    font-size: 28px;
+    text-align: center;
+
+}
+.pqconsultar p {
+    font-size: 18px;
+    margin:auto;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.fotoeli {
+    margin-top: 30px;
+    width: 120%;
+    height: 80vh; 
+}
+
+.fotoeli img {
+    border-radius: 30px;
+    height: 75vh;
+    margin: 20px;
+    
+    
+}
+.offerservicos {
+    
+    width: 100%;
+    align-items: center;
+    margin-left: 100px;
+}
+.offerservicos figure, p {
+    text-align: center;
+    align-items: center;
+}
+
+.offerservicos img {
+    width: 70px;
+    margin-left: 20px;
+    background-color: rgba(255, 166, 0, 0.733);
+    padding: 10px;
+    border-radius: 25px;
+    
+}
+
+.offerservicos h2 {
+    font-size: 20px;
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+.limitador2 {
+    width: 80%;
+    margin: auto;
+}
+
+.limitador {
+    width: 95vw;
+    margin: auto;
+}
+
+/* criando estilo para DICAS no HOME */
+
+.dicas {
+    background-color: #ececec;
+    background-attachment: fixed;
+}
+
+
+.dicasnutri h2 {
+    color:var(--cor-agendar);
+    text-shadow:rgba(0, 128, 0, 0.534) 2px 2px 4px;
+    text-align: center;
+}
+
+.dicas {
+    display: flex;
+}
+.dicas p {
+    font-size: 16px;
+    margin-top: -55px;
+}
+.dicas img {        
+    width:150px;
+    border-color: white;
+    border-style:solid;
+    margin:50px;
+    align-items: center;
+    text-align: center;
+
+}
+.dicas  .ervas{
+    margin-left: 5px;
+   
+}
+
+
+
+/* estilo para localização e footer */
+
+footer {
+    background-color: var(--cor-clara);
+    color: black;
+    height: 30vh;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.localizacao {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 10px;
+  
+}
+
+address {  
+  font-size: 14px;
+
+}
+.medias-social {
+    margin-left: 50px;
+}
+.medias-social a {
+    align-items:center;
+    justify-content:center;
+    margin: 10px;
+    color: black;
+    background-color: rgba(255, 166, 0, 0.733);
+    padding: 10px;
+    border-radius: 100px;
+    
+}
+.medias-social a i {
+    font-size: 24px;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+/* Estilo para a página Serviços */
+
+
+
+.servicos {
+    text-align: center;
+    font-size: 22px;
+    padding: 2px;
+    background-color: var(--cor-destaque);
+    margin-top: 50px;
+    margin-bottom: -22px;
+}
+.consultas ul {
+    font-size: 22px;
+    margin-top: -30px;
+    margin-left: 35px;
+    
+    
+}
+.consultas p{
+    font-size: 17px;
+    margin: auto;
+    margin-left: 40px;
+    text-align: left;
+
+}
+
+.consultas ol {
+    font-size: 17px;
+    margin-left: 60px;
+}
+
+.botao1 a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    border-radius: 50px;
+    background-color:var(--cor-agendar);
+    margin-left: 20px;
+   
+
+}
+.botao1 a:hover {
+    color: #FBB040;
+    top:-4px;box-shadow:0 4px 4px #999;
+    transition: all .2s ease-in-out; 
+    
+}
+
+
+/* criando estilo para a pagina DICAS NUTRI */
+
+
+.dicasnutri1 h1 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.dicasnutri1 h2 {
+    text-align: center;
+    background-color: var(--cor-destaque);
+    margin: auto;
+    font-size: 20px;
+}
+
+.dicasnutri1 ul, ol {
+    font-size: 18px;
+    margin-left: 35px;
+}
+
+ .dicasnutri1 p {
+    font-size: 18px;
+   margin: auto;
+   text-align: left;
+ }
+
+
+.feira img {
+   float: right;
+   width: 270px;
+   height: 420px;
+   margin-bottom: 220px;
+   
+}
+
+.higienizacao img {
+    float: right;
+   width: 200px;
+   height: 230px;
+   margin-left: 30px;
+  
+}
+
+.higienizacao h3 {
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.armazenamento img {
+    float: right;
+  margin-left: 15px;
+  width: 210px;
+}
+
+.ervas img {
+    float: right;
+   margin-bottom: 20px;
+   margin-left: 14px;
+   width: 220px;
+}
+.agua img {
+    float: right;
+   margin-left: 14px;
+   height: 300px;
+}
+
+
+/* criando estilo para a pagina SOBRE MIM */
+
+  
+.sobremim h1 {
+    background-color: var(--cor-destaque);
+    text-align: center;
+    font-size: 25px;
+    padding: 2px;
+}
+
+.sobremim h2 
+{
+    text-align: left;
+    font-size: 25px;
+}
+.sobremim p  {
+    font-size: 18px;
+    margin-top: -1px;
+    text-align: left;
+}
+.conteudoSM {
+    background-color: rgba(248, 247, 247, 0.719);
+    padding: 3rem;
+    border-radius: 6px;  
+    
+}
+
+.conteudo01 {
+    display: flex;
+}
+
+.missao {
+    width: 300%;
+    padding: 30px;
+    
+    
+}
+.missao ul li {
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+.sobremim-img {
+    width: 100%;
+   
+  
+}
+
+
+
+
+/* regras condicionais (Media Queries) */
+
+@media screen and (min-width: 570px) {
+    nav h2 { display: none; }
+    .menu { display: flex; }
+    .menu li { width: 100%; }
+    nav { width: 70%; }
+    .front-end img { height: 150px; }
+}
+
+/* Crie uma regra condicional para telas a partir de 900px */
+
+
+@media screen and (min-width: 900px){
+    .limitador { max-width: 900px; }
+    html { font-size: 18px; }
+}
