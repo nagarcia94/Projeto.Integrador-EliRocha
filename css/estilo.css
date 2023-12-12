@@ -581,10 +581,15 @@ img {
 
 
 
+.dicasnutri{
+  background-color: var(--cor-intermediaria);
+}
 
 
-
-
+.dica h2 {
+    text-align: center;
+    color: var(--cor-agendar);
+}
 
 
 /* regras condicionais (Media Queries) */
