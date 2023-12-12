@@ -535,6 +535,53 @@ address {
   
 }
 
+/* GALERIA */
+
+
+
+
+* { box-sizing: border-box;  }
+html { font-size: 14px; }
+body { font-family: 'Segoe UI', 'Verdana'; }
+img { max-width: 60%; }
+
+.container {
+    margin: auto;
+    width: 80%;
+    background-color: lavender;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.dicasnutri {
+    margin: auto;
+    max-width: 549px;
+}
+
+.dicasnutri  { margin-bottom: 20px; }
+
+.slider h2, .slider p { margin: 0; }
+
+.voltar, .avancar{
+    position:absolute;
+    bottom:100px;
+    background-color:lightblue;
+    color: chocolate;
+    text-decoration: none;
+    z-index: 100;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.voltar{ left: 0; } 
+
+.avancar{ right:0; }
+
+
+
+
+
+
 
 
 

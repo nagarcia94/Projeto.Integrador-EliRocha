@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/estilofooter.css">
     <link rel="stylesheet" href="css/estilo.css">
+
+    <!-- Importando o arquivo CSS do plugin Slick -->
+<link rel="stylesheet" href="slick/slick.css">
+<link rel="stylesheet" href="slick/slick-theme.css">
 </head>
 
 <body>
@@ -69,32 +73,42 @@
            </div>
 
         </article> <br><br>
-       
+
+    
+    <div class="dica">
+        <h2>Dicas da Nutri </h2>
+    </div>
 <div class="dicasnutri">
-        <h2>Dicas da Nutri </h2></div>
-        <article class="dicas">
-            <figure><img src="imagens/dica nut 1mini.png" alt="">
-            <p>Boas Escolhas na Feira!</p></figure>
+       
+        <div>
+            <img src="imagens/dica nut 1mini.png" alt="">
+            <p>Boas Escolhas na Feira!</p>
+
+        </div>
+        <div>
+            <img src="imagens/dica nut 2.jpg" alt="">
+            <p>Higienização dos Produtos!</p>
+
+        </div>
+        <div>
+            <img src="imagens/dica nut 3.jpg" alt="">
+            <p>Cuidados no Armazenamento!</p>
+
+        </div>
+        <div>
+            <img src="imagens/dica nut 4.jpg" alt="">
+            <p>Ervas e Condimentos!</p>
+
+        </div>
+        <div>
+            <img src="imagens/dica nut 5.jpg" alt="">
+            <p>Agua Saborizada!</p>
+
+        </div>
+
+    </div> <!-- Fim do Dicas Nutri -->
+        
             
-            
-            <figure> <img src="imagens/dica nut 3.jpg" alt="">
-                <p>Cuidados no Armazenamento!</p></figure>
-                <br>
-
-                <figure><img src="imagens/dica nut 2.jpg" alt="">
-                    <p>Higienização dos Produtos!</p></figure>
-                
-
-                <figure> <img src="imagens/dica nut 4.jpg" alt="">
-                    <p>Ervas e Condimentos!</p></figure>
-                </figure>
-
-
-                <figure><img src="imagens/dica nut 5.jpg" alt="">
-                    <p>Agua Saborizada!</p></figure>
-
-            </article>
-                
              
 <br><br>
         <article class="localizacao">
@@ -130,6 +144,23 @@ Próximo ao metrô Santa Cruz <br> </address>
     </footer>
 
     <script src="js/menu.js"></script> 
+
+    <!-- Importação da biblioteca JQuery --> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Importação do JS do plugin Slick -->
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script>
+        $('.dicasnutri').slick({
+        //    autoplay: true,
+        //    autoplaySpeed: 3000,
+           dots: true,
+           prevArrow: "<a class='voltar' href=''><</a>",
+           nextArrow: "<a class='avancar' href=''>></a>"
+        });
+
+    </script>
        
 </body>
 
