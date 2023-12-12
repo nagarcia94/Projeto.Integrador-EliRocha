@@ -539,7 +539,12 @@ address {
 * { box-sizing: border-box;  }
 html { font-size: 14px; }
 body { font-family: 'Segoe UI', 'Verdana'; }
-img { max-width: 60%; }
+img { 
+    max-width: 60%;
+    justify-content: center;
+    align-items: center;
+    margin: auto; 
+}
 
 .container {
     margin: auto;
@@ -552,6 +557,7 @@ img { max-width: 60%; }
 .dicasnutri {
     margin: auto;
     max-width: 549px;
+   
 }
 
 .dicasnutri  { margin-bottom: 20px; }
