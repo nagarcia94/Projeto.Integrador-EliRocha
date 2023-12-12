@@ -1,33 +1,10 @@
 
+<?php 
+require "inc/cabecalho.php";
+?>
 
-
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre Mim</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/estilo.css">
-    <link rel="stylesheet" href="css/estilofooter.css">
-</head>
 <body>
-    <header>
-        <div class="limitador">
-            <h1><a href="index.html"><img class="logo" src="imagens/logo novo.png" alt=""></a></h1>
-            <nav>
-                <h2><a href="">Menu &equiv; </a></h2>
-                <ul class="menu">
-                    <li> <a href="index.html">Home</a></li>
-                    <li> <a href="servicos.html">Seviços</a></li>
-                    <li> <a href="dicasnutri.html">Dicas</a></li>
-                    <li> <a href="sobremim.html">Sobre mim</a></li>
-                </ul>
-            </nav>
-        </div>
-        </div>
-
-    </header>
+    
     <main>
         <div class="sobremim ">
     <h1>SOBRE MIM</h1>
@@ -62,24 +39,16 @@
         
     
     </div></main>
-    <footer>
-       
-        <p> &copy; <b>São Paulo</b> 
-        </p> 
-
-        <div class="medias-social">                
-            <a href=""><i class="fa fa-facebook"></i></a>
-            <a href=""><i class="fa fa-instagram"></i></a>
-            <a href=""><i class="fa fa-phone"></i></a>
-        </div> <br>
-
-
-    </footer>
+    
 
     <script src="js/menu.js"></script> 
     
     
     
-        </footer>
+        
 </body>
 </html>
+
+<?php 
+require "inc/rodape.php";
+?>
