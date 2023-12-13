@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eli Rocha - Nutricionista</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/estilofooter.css">
-    <link rel="stylesheet" href="css/estilo.css">
-
     <!-- Importando o arquivo CSS do plugin Slick -->
 <link rel="stylesheet" href="slick/slick.css">
 <link rel="stylesheet" href="slick/slick-theme.css">
+
+    <link rel="stylesheet" href="css/estilofooter.css">
+    <link rel="stylesheet" href="css/estilo.css">
+
 </head>
 <header>
 
