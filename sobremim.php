@@ -40,6 +40,9 @@ require "inc/cabecalho.php";
     
     </div></main>
     
+<?php 
+require "inc/rodape.php";
+?>
 
     <script src="js/menu.js"></script> 
     
@@ -48,7 +51,3 @@ require "inc/cabecalho.php";
         
 </body>
 </html>
-
-<?php 
-require "inc/rodape.php";
-?>
