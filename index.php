@@ -11,15 +11,7 @@ require "inc/cabecalho.php";
             <h2> <span class="orange">NUTRICIONISTA </span>ELIANE ROCHA</h2>
             <p>Descubra como se alimentar bem e com prazer!</p> <br><br><br>
 
-            <div class="botoes">
-                <div class="botao2">
-                    <p> <a target="_blank" href="https://elirocha.com.br/">Agendar consulta</a> </p>
-                </div>
-
-                <div class="botao3">
-                    <p><a href="sobremim.php">Sobre mim </a></p>
-                </div>
-            </div>
+            <div class="botao3"><p><a href="sobremim.php">Sobre mim </a></p></div></div>
         </article>
 
         <article class=" limitador2 caixa">

@@ -90,7 +90,7 @@ require "inc/cabecalho.php";
                             arejados e afastados dos produtos de limpeza e outros com odor forte. Outras orientações
                             quanto à conservação do produto devem ser fornecidas pelo fabricante e devem ser seguidas
                             pelo consumidor.</p> 
-                           </article> <br> <br> <br>
+                           </article> <br> <br> <br> <br>
 
 
                         <article class="ervas">
