@@ -477,6 +477,9 @@ address {
   margin: auto;
 
 }
+.armazenamento {
+    height: 400px;
+}
 
 .ervas img {
    float: right;
@@ -485,9 +488,6 @@ address {
   
 }
 
-.ervas h2 {
-    padding: 20px;
-}
 
 .agua img {
    float: right;
@@ -696,7 +696,7 @@ color: var(--cor-agendar);
    }
     
   }
-  
+
 /* celular */
 @media (max-width: 450px){
     .destaque h2 {
