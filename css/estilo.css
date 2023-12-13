@@ -696,7 +696,8 @@ color: var(--cor-agendar);
    }
     
   }
-
+  
+/* celular */
 @media (max-width: 450px){
     .destaque h2 {
         margin-top: 20px;
