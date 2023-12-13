@@ -160,8 +160,7 @@ contidos em Destaque. */
 .destaque h2 {
     font-size: 40px;
     position: relative;
-    right: 290px;
-
+    right:600px;
 }
 .orange {
     color: var(--cor-destaque);
@@ -170,7 +169,7 @@ contidos em Destaque. */
 .destaque p {
     font-size: 22px;
     position: relative;
-    right: 290px;
+    right: 610px;
     
 }
 
@@ -470,6 +469,8 @@ address {
 .armazenamento img {
   float: right;
   margin-left: 15px;
+  margin: auto;
+
 }
 
 .ervas img {
@@ -478,6 +479,11 @@ address {
    margin-left: 14px;
   
 }
+
+.ervas h2 {
+    padding: 20px;
+}
+
 .agua img {
    float: right;
    margin-left: 14px;

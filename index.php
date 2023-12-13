@@ -15,7 +15,7 @@ require "inc/cabecalho.php";
             <div class="botao2"> 
                 <p> <a target="_blank" href="https://elirocha.com.br/">Agendar consulta</a> </p></div> 
 
-            <div class="botao3"><p><a href="sobremim.html">Sobre mim </a></p></div></div>
+            <div class="botao3"><p><a href="sobremim.php">Sobre mim </a></p></div></div>
         </article>
 
         <article class=" limitador2 caixa">
