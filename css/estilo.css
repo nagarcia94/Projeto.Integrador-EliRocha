@@ -161,6 +161,7 @@ contidos em Destaque. */
     font-size: 40px;
     position: relative;
     right:600px;
+   
 }
 .orange {
     color: var(--cor-destaque);
@@ -170,6 +171,7 @@ contidos em Destaque. */
     font-size: 22px;
     position: relative;
     right: 610px;
+    
     
 }
 
@@ -221,8 +223,11 @@ contidos em Destaque. */
 
 
 .pqconsultar {
-    width: 150%;
-    margin-top: 40px;   
+
+        max-width: 100%;
+     
+    /* width: 150%;
+    margin-top: 40px;    */
 }
 
 .pqconsultar h2 {
@@ -598,8 +603,8 @@ img {
 
 
 .dica h2 {
-    text-align: center;
-    color: var(--cor-agendar);
+text-align: center;
+color: var(--cor-agendar);
   padding-top: 10px;
   font-size: 25px;
 }
@@ -613,16 +618,14 @@ img {
 
 
 
-
-
 /* regras condicionais (Media Queries) */
 
-@media screen and (min-width: 570px) {
+@media screen and (min-width: 660px) {
     nav h2 { display: none; }
     .menu { display: flex; }
     .menu li { width: 100%; }
-    nav { width: 70%; }
-    .front-end img { height: 150px; }
+    nav { width: 80%; }
+    
 }
 
 /* Crie uma regra condicional para telas a partir de 900px */
@@ -632,3 +635,121 @@ img {
     .limitador { max-width: 900px; }
     html { font-size: 18px; }
 }
+
+
+/* telas medias */
+@media screen and (min-width: 451px) and (max-width: 1199px) {
+    
+
+    .destaque h2 {
+      
+        margin-top: 20px;
+        font-size: 27px;
+        right: 2px;
+    }
+    
+    .destaque p {
+        font-size: 17px;
+        right: 2px;
+       
+    }
+
+    .botoes a {
+        font-size: 15px ;  
+    }
+
+    .destaque {
+        max-width: 100%;
+        height: auto;
+        background-size:1200px;
+    
+    }
+     .pqconsultar{
+        max-width: 100%;
+     }
+    .caixa {
+        display: block;
+    
+    }
+    .pqconsultar h2  {
+        font-size: 20px;
+        text-align: center;
+        margin: auto;
+        margin-top: 20px;
+       
+    }
+
+    .pqconsultar p {
+        font-size: 15px;
+        text-align: center;
+       margin: auto;
+
+    }
+    .fotoeli {
+        margin: auto;
+        max-width: 300px;
+      
+    }
+   .offerservicos{
+    align-items: center;
+    margin: auto;
+   }
+    
+  }
+
+@media (max-width: 450px){
+    .destaque h2 {
+        margin-top: 20px;
+        font-size: 27px;
+        right: 2px;
+    }
+    
+    .destaque p {
+        font-size: 17px;
+        right: 2px;
+       
+    }
+
+    .botoes a {
+        font-size: 15px ;  
+    }
+
+    .destaque {
+        height: auto;
+        width:auto;
+        background-size:600px;
+    
+    }
+     
+    .caixa {
+        display: block;
+    
+    }
+    .caixa h2  {
+        font-size: 20px;
+        text-align: left;
+       
+    }
+
+    .caixa p {
+        font-size: 16px;
+        text-align: center;
+        margin-right: 140px;
+
+    }
+    .offerservicos h2 {
+        font-size: 15px;
+        text-align: center;
+        padding-right: 50px;
+        width: 200px;
+    }
+
+    .offerservicos a {
+        margin-right: 140px;
+        padding-right: auto;
+       
+    } }
+
+
+
+
