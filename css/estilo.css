@@ -455,15 +455,15 @@ address {
 
 .feira img {
    float: right;
-   margin-bottom: 220px;
-   
-   
+   margin-bottom: 220px;   
+   width: 240px; 
 }
+
 
 .higienizacao img {
     float: right;
-   margin-left: 30px;
-  
+   margin-left: 30px; 
+   width: 200px;
 }
 
 .higienizacao h3 {
@@ -471,27 +471,27 @@ address {
     margin-left: 20px;
 }
 
+
 .armazenamento img {
   float: right;
   margin-left: 15px;
-  margin: auto;
+  width: 180px;
 
 }
-.armazenamento {
-    height: 400px;
-}
+
 
 .ervas img {
    float: right;
    margin-bottom: 20px;
    margin-left: 14px;
-  
+   width: 180px;
 }
 
 
 .agua img {
    float: right;
    margin-left: 14px;
+   width: 180px;
   
 }
 
@@ -520,6 +520,7 @@ address {
     background-color: rgba(248, 247, 247, 0.719);
     padding: 3rem;
     border-radius: 6px;  
+    max-width: 100%;
     
 }
 
