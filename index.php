@@ -42,14 +42,14 @@ require "inc/cabecalho.php";
                     <p> Avaliação Nutricional</p>
                 </figure><br>
 
-                <figure><a href="servicos.php"><img src="imagens/fita-metrica.png" alt=""></figure></a>
-                <p>Avaliação Antropométrica </p> <br>
+                <figure><a href="servicos.php"><img src="imagens/fita-metrica.png" alt=""></a>
+                <p>Avaliação Antropométrica </p> </figure><br>
 
-                <figure><a href="servicos.php"><img src="imagens/pinca.png" alt=""></figure></a>
-                <p>Exame Biompendância</p> <br>
+                <figure><a href="servicos.php"><img src="imagens/pinca.png" alt=""></a>
+                <p>Exame Biompendância</p></figure> <br>
 
-                <figure><a href="servicos.php"><img src="imagens/apoio-suporte.png" alt=""></figure></a>
-                <p>Grupo de apoio</p> <br>
+                <figure><a href="servicos.php"><img src="imagens/apoio-suporte.png" alt=""></a>
+                <p>Grupo de apoio</p> </figure><br>
 
             </div>
 
