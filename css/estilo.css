@@ -750,11 +750,18 @@ color: var(--cor-agendar);
 
  .offerservicos h2 {
     font-size: 13px;
-    background-color: var(--cor-intermediaria)
+    background-color: var(--cor-intermediaria);
+    margin: auto;
  }
+
  .offerservicos p {
     font-size: 13px;
     font-weight: bold;
+ }
+ .offerservicos  figure {
+    margin-right: 20px;
+
+
  }
 
 /* 
