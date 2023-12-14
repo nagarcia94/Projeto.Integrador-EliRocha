@@ -14,7 +14,7 @@ require "inc/cabecalho.php";
 
             <div class="botoes">
 
-            <div class="botao2"><a href="https://elirocha.com.br/">Agendar Consulta</a></div>
+            <div class="botao2"><a target="_blank"  href="https://elirocha.com.br/">Agendar Consulta</a></div>
 
             <div class="botao3"><a href="sobremim.php">Sobre mim </a></div></div>
             </div>
