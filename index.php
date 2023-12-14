@@ -9,13 +9,14 @@ require "inc/cabecalho.php";
 
         <article class="destaque">
             <h2> <span class="orange">NUTRICIONISTA </span>ELIANE ROCHA</h2>
-            <p>Descubra como se alimentar bem e com prazer!</p> <br><br><br>
+            <p>Descubra como se alimentar bem e com prazer!</p> 
+            <br>
 
             <div class="botoes">
 
-            <div class="botao2"><p><a href="https://elirocha.com.br/">Agendar Consulta</a></p></div>
+            <div class="botao2"><a href="https://elirocha.com.br/">Agendar Consulta</a></div>
 
-            <div class="botao3"><p><a href="sobremim.php">Sobre mim </a></p></div></div>
+            <div class="botao3"><a href="sobremim.php">Sobre mim </a></div></div>
             </div>
         </article>
 
