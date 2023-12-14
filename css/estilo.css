@@ -650,7 +650,7 @@ color: var(--cor-agendar);
 
 
 /* celulares menores de 520 px  */
-@media (min-width: 400px) and (max-width: 520px){
+@media (min-width: 350px) and (max-width: 520px){
     .destaque {
         max-width: 100%;
         height: 139px;
@@ -674,6 +674,48 @@ color: var(--cor-agendar);
             left:15%;
             margin-top: 15px;
         }
+
+
+        .caixa {
+            max-width: 100%;
+            width: 80vw;
+            margin: 0 auto;
+            display: block;
+         }
+        
+         .caixa h2 {
+            font-size: 16px;
+            margin-top: 10px;
+            
+         }
+        
+         .caixa p {
+            font-size: 14px;
+            margin: 0 auto;
+            
+         }
+        
+         .offerservicos {
+            margin: auto;
+         }
+        
+         .offerservicos h2 {
+            font-size: 13px;
+            background-color: var(--cor-intermediaria);
+            margin: auto;
+         }
+        
+         .offerservicos p {
+            font-size: 13px;
+            font-weight: bold;
+         }
+         .offerservicos  figure {
+            margin-right: 20px;
+        
+        
+         }
+
+
 }
 
 
@@ -702,6 +744,45 @@ color: var(--cor-agendar);
         left:16%;
     }
 
+
+
+    .caixa {
+        max-width: 100%;
+        width: 50vw;
+        margin: 0 auto;
+        display: block;
+     }
+    
+     .caixa h2 {
+        font-size: 16px;
+        margin-top: 10px;
+        
+     }
+    
+     .caixa p {
+        font-size: 14px;
+        margin: 0 auto;
+     }
+    
+     .offerservicos {
+        margin: auto;
+     }
+    
+     .offerservicos h2 {
+        font-size: 13px;
+        background-color: var(--cor-intermediaria);
+        margin: auto;
+     }
+    
+     .offerservicos p {
+        font-size: 13px;
+        font-weight: bold;
+     }
+     .offerservicos  figure {
+        margin-right: 20px;
+    
+    
+     }
  }
 
 
@@ -715,6 +796,7 @@ color: var(--cor-agendar);
 }
 .destaque h2 {
     font-size: 30px;
+
 }
 .destaque p {
     font-size: 18px;
@@ -725,44 +807,45 @@ color: var(--cor-agendar);
     left:18%;
 }
 
- }
-
- .caixa {
+.caixa {
     max-width: 100%;
-    width: 50vw;
-    margin: 0 auto;
-    display: block;
- }
+    width: 90vw;
+}
 
  .caixa h2 {
-    font-size: 16px;
-    margin-top: 10px;
+    font-size: 18px;
+    margin: auto;
+    margin-top: 20px;
  }
 
  .caixa p {
     font-size: 14px;
-    margin: 0 auto;
+    margin-left: 10px;
  }
 
- .offerservicos {
+.pqconsultar, .fotoeli, .offerservicos {
+    width: 50%;
+}
+
+.offerservicos {
     margin: auto;
- }
-
+    margin-left: 8px;
+}
  .offerservicos h2 {
-    font-size: 13px;
-    background-color: var(--cor-intermediaria);
-    margin: auto;
- }
+    font-size: 14px;
+    margin-top: 10px;
 
+ }
  .offerservicos p {
-    font-size: 13px;
     font-weight: bold;
+}
  }
- .offerservicos  figure {
-    margin-right: 20px;
+ 
 
 
- }
+ 
+
+ 
 
 /* 
 telas medias
