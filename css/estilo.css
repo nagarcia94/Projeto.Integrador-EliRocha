@@ -551,7 +551,12 @@ address {
 }
 
 .sobremim-img {
-    width: 100%;
+    
+        min-width: 400px; 
+        width: 100%;
+        height: auto; 
+    
+    
    
   
 }
@@ -712,9 +717,22 @@ color: var(--cor-agendar);
          .offerservicos  figure {
             margin-right: 20px;
         
-        
          }
 
+         .sobremim-img {
+            display: none;
+         }
+
+
+           .missao {
+            width: 100%;
+            height: 50%;
+           }
+
+           .feira ol li {
+            
+            margin: auto;
+           }
 
 }
 
