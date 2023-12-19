@@ -52,7 +52,7 @@ require "inc/cabecalho.php";
 
                     <article class="higienizacao">
                     <h2>Higienização dos produtos</h2> 
-                    <figure><img src="imagens/dicalavar.jpg" alt=""></figure>
+                    <img src="imagens/dicalavar.jpg" alt="">
                     <br>
                     <h3>É fundamental lavar os produtos bem e com cuidado antes de consumi-los, veja o passo-a-passo:
                     </h3> <br>
@@ -76,7 +76,9 @@ require "inc/cabecalho.php";
 
                         <article class="armazenamento">
                         <h2>Cuidados no armazenamento
-                            em casa</h2> <figure><img src="imagens/dicaorganizar.jpg" alt=""></figure>
+                            em casa</h2>
+                            
+                            <img src="imagens/dicaorganizar.jpg" alt="">
                             <br>
                         <p>Após a compra, os alimentos refrigerados e congelados devem ser armazenados na geladeira ou
                             freezer o mais rápido possível, e consumidos até a data de validade do produto.
@@ -94,9 +96,10 @@ require "inc/cabecalho.php";
 
 
                         <article class="ervas">
-                            <h2>Ervas e Outros Condimentos</h2> <figure><img src="imagens/dicaervas.jpg" alt=""></figure>
+                            <h2>Ervas e Outros Condimentos</h2>
+                            <img src="imagens/dicaervas.jpg" alt="">
                             
-                            <br>
+                            
                         <p>Excelente alternativa para preparar alimentos saborosos. <br>
                             Para reduzir a quantidade de sal, veja as dicas de como usar condimentos que são saudáveis e
                             muitas vezes mais saborosos do que o sal.</p> <br>
