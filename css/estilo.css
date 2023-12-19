@@ -468,6 +468,8 @@ address {
    float: right;
    margin-bottom: 220px;   
    width: 240px; 
+   display: flex;
+   
 }
 
 
@@ -857,6 +859,8 @@ color: var(--cor-agendar);
  .offerservicos p {
     font-weight: bold;
 }
+
+
  }
  
 
@@ -865,43 +869,19 @@ color: var(--cor-agendar);
 
  
 
-/* 
-telas medias
-@media screen and (min-width: 451px) and (max-width: 1199px) {
+
+
+@media screen and (min-width: 720px) and (max-width: 1560px) {
     
-    
-     .pqconsultar{
-        max-width: 100%;
-     }
-    .caixa {
-        display: block;
-    
-    }
-    .pqconsultar h2  {
-        font-size: 20px;
-        text-align: center;
-        margin: auto;
-        margin-top: 20px;
-       
+ 
+    .feira img {
+        flex-direction: column;
+        
     }
 
-    .pqconsultar p {
-        font-size: 15px;
-        text-align: center;
-       margin: auto;
 
-    }
-    .fotoeli {
-        margin: auto;
-        max-width: 300px;
-      
-    }
-   .offerservicos{
-    align-items: center;
-    margin: auto;
-   }
-    
-  }
+
+}
 
 /* celular */
 /* @media (max-width: 450px){

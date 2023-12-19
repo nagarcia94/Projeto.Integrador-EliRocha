@@ -11,7 +11,7 @@ require "inc/cabecalho.php";
             <div class="conteudoSM">
                 <article class="feira">
                     <h2>Fazendo boas encolhas na feira</h2> 
-                    <figure><img src="imagens/dicafeira.jpg" alt=""></figure> <br>
+                  <img src="imagens/dicafeira.jpg" alt=""> <br>
                     <ol>
                         <li>
                             <b>Escolha os produtos da época.</b> <br>
@@ -134,7 +134,7 @@ require "inc/cabecalho.php";
 
                         <article class="agua">
                         <h2>Como consumir Água quando não se está habituado?</h2> 
-                        <figure><img src="imagens/dicaagua.jpg" alt=""></figure>
+                        <img src="imagens/dicaagua.jpg" alt="">
                         <br>
                         <p>Para aqueles que tem dificuldade de beber água, abaixo segue algumas receitas de água
                             aromatizada, no intuito de facilitar o consumo dessa preciosa e importante bebida. <br>
