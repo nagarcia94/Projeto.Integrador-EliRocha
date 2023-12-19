@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,500&display=swap');
 
 
-* { box-sizing: border-box; }
+* {
+    box-sizing: border-box;
+}
 
 :root {
     /* Variáveis para a 
@@ -16,7 +18,9 @@
     --cor-agendar: #00A651;
 }
 
-html { font-size: 16px; }
+html {
+    font-size: 16px;
+}
 
 
 body {
@@ -27,12 +31,19 @@ body {
 
 
 /* CSS Reset em alguns elementos */
-body, h1, h2, p, figure, .menu {
+body,
+h1,
+h2,
+p,
+figure,
+.menu {
     margin: 0;
     padding: 0;
 }
 
-img { max-width: 100%; }
+img {
+    max-width: 100%;
+}
 
 h1 {
     font-family: Raleway, sans-serif;
@@ -41,15 +52,18 @@ h1 {
     font-size: 1.5rem;
 }
 
- .logo{
+.logo {
     padding: 1.3rem 1rem;
     width: 800px;
-    height: auto; }
-    
-    
+    height: auto;
+}
 
 
-a { text-decoration: none; }
+
+
+a {
+    text-decoration: none;
+}
 
 
 
@@ -78,14 +92,16 @@ nav h2 a {
     display: inline-block;
 }
 
-nav h2 a:hover, nav h2 a:focus, 
-.menu a:hover, .menu a:focus {
+nav h2 a:hover,
+nav h2 a:focus,
+.menu a:hover,
+.menu a:focus {
     background-color: var(--cor-intermediaria);
 }
 
 /* Regra da lista ul de links */
-.menu { 
-    list-style: none; 
+.menu {
+    list-style: none;
 
     /* 
     Usando display:none para
@@ -102,7 +118,7 @@ links contidos na lista/menu */
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px; 
+    height: 50px;
 }
 
 
@@ -121,14 +137,14 @@ da manipulação programada com JavaScript. */
 
     /* Com os links em forma de coluna (vertical) */
     flex-direction: column;
-    
+
     /* Usamos as propriedades de posicionamento
     e coordenadas para garantir o encaixe correto
     (abaixo do título e da palavra Menu). */
     position: absolute;
     left: 0;
     right: 0;
-    
+
     /* Aplicamos um fundo à lista evitando a
     dificuldade de leitura dos links */
     background-color: var(--cor-clara);
@@ -141,21 +157,22 @@ contidos em Destaque. */
 .destaque {
     height: 80vh;
     background-image: url(../imagens/destaquehome.jpg);
-    background-attachment:fixed;
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-size: cover;
     position: relative;
-    
+
 }
 
 
 
-.destaque h2, .destaque p { 
-    color:var(--cor-escura);
-   
+.destaque h2,
+.destaque p {
+    color: var(--cor-escura);
+
 }
 
 .destaque h2 {
@@ -165,8 +182,9 @@ contidos em Destaque. */
     left: 35%;
     transform: translate(-50%, -50%);
     padding: 10px;
-   
+
 }
+
 .orange {
     color: var(--cor-destaque);
 }
@@ -178,13 +196,12 @@ contidos em Destaque. */
     left: 35%;
     transform: translate(-50%, -50%);
     padding: 10px;
-    
-    
+
+
 }
 
 
-.botoes
-{
+.botoes {
     font-size: 20px;
     display: flex;
     align-items: center;
@@ -193,32 +210,33 @@ contidos em Destaque. */
     position: absolute;
     top: 60%;
     left: 30%;
-     
+
 }
 
 
 .botao2 a {
 
-    background-color:var(--cor-destaque);
+    background-color: var(--cor-destaque);
     border-radius: 20px;
     padding-right: 10px;
     padding-left: 10px;
     margin-right: 10px;
     color: #000;
-    
 
-    
+
+
 
 }
+
 .botao3 a {
     background-color: var(--cor-agendar);
     border-radius: 20px;
     padding-right: 10px;
     padding-left: 10px;
     margin-left: 10px;
-    color:white;
-    
-    
+    color: white;
+
+
 }
 
 /* criando estilo para pagina home: serviços que ofereço */
@@ -229,14 +247,14 @@ contidos em Destaque. */
     align-items: center;
     justify-content: space-between;
     margin: auto;
-    
+
 }
 
 
 .pqconsultar {
 
-        max-width: 100%;
-     
+    max-width: 100%;
+
     /* width: 150%;
     margin-top: 40px;    */
 }
@@ -244,14 +262,15 @@ contidos em Destaque. */
 .pqconsultar h2 {
     font-size: 25px;
     text-align: center;
-    
+
 }
+
 .pqconsultar p {
     font-size: 18px;
-    margin:auto;
+    margin: auto;
     margin-bottom: 40px;
     text-align: left;
-   
+
 }
 
 .fotoeli {
@@ -265,16 +284,19 @@ contidos em Destaque. */
     margin: 20px;
     max-width: 100%;
     height: auto;
-    
-    
+
+
 }
+
 .offerservicos {
-    
+
     width: 100%;
     align-items: center;
     margin-left: 100px;
 }
-.offerservicos figure, p {
+
+.offerservicos figure,
+p {
     text-align: center;
     align-items: center;
 }
@@ -285,7 +307,7 @@ contidos em Destaque. */
     background-color: rgba(255, 166, 0, 0.733);
     padding: 10px;
     border-radius: 25px;
-    
+
 }
 
 .offerservicos h2 {
@@ -294,6 +316,7 @@ contidos em Destaque. */
     text-align: center;
     margin-top: 50px;
 }
+
 .limitador2 {
     width: 80%;
     margin: auto;
@@ -313,30 +336,33 @@ contidos em Destaque. */
 
 
 .dicasnutri h2 {
-    color:var(--cor-agendar);
-    text-shadow:rgba(0, 128, 0, 0.534) 2px 2px 4px;
+    color: var(--cor-agendar);
+    text-shadow: rgba(0, 128, 0, 0.534) 2px 2px 4px;
     text-align: center;
 }
 
 .dicas {
     display: flex;
 }
+
 .dicas p {
     font-size: 16px;
     margin-top: -55px;
 }
-.dicas img {        
-    width:150px;
+
+.dicas img {
+    width: 150px;
     border-color: white;
-    border-style:solid;
-    margin:50px;
+    border-style: solid;
+    margin: 50px;
     align-items: center;
     text-align: center;
 
 }
-.dicas  .ervas{
+
+.dicas .ervas {
     margin-left: 5px;
-   
+
 }
 
 
@@ -355,29 +381,32 @@ footer {
 }
 
 .localizacao {
-  text-align: center;
-  font-size: 14px;
-  margin-bottom: 10px;
-  
-}
-
-address {  
-  font-size: 14px;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
 
 }
+
+address {
+    font-size: 14px;
+
+}
+
 .medias-social {
     margin-left: 50px;
 }
+
 .medias-social a {
-    align-items:center;
-    justify-content:center;
+    align-items: center;
+    justify-content: center;
     margin: 10px;
     color: black;
     background-color: rgba(255, 166, 0, 0.733);
     padding: 10px;
     border-radius: 100px;
-    
+
 }
+
 .medias-social a i {
     font-size: 24px;
     text-align: center;
@@ -398,14 +427,16 @@ address {
     margin-top: 50px;
     margin-bottom: -22px;
 }
+
 .consultas ul {
     font-size: 22px;
     margin-top: -30px;
     margin-left: 35px;
-    
-    
+
+
 }
-.consultas p{
+
+.consultas p {
     font-size: 17px;
     margin: auto;
     margin-left: 40px;
@@ -423,16 +454,18 @@ address {
     padding: 10px;
     color: white;
     border-radius: 50px;
-    background-color:var(--cor-agendar);
+    background-color: var(--cor-agendar);
     margin-left: 20px;
-   
+
 
 }
+
 .botao1 a:hover {
     color: #FBB040;
-    top:-4px;box-shadow:0 4px 4px #999;
-    transition: all .2s ease-in-out; 
-    
+    top: -4px;
+    box-shadow: 0 4px 4px #999;
+    transition: all .2s ease-in-out;
+
 }
 
 
@@ -452,31 +485,32 @@ address {
     font-size: 20px;
 }
 
-.dicasnutri1 ul, ol {
+.dicasnutri1 ul,
+ol {
     font-size: 18px;
     margin-left: 35px;
 }
 
- .dicasnutri1 p {
+.dicasnutri1 p {
     font-size: 18px;
-   margin: auto;
-   text-align: left;
- }
+    margin: auto;
+    text-align: left;
+}
 
 
 .feira img {
-   float: right;
-   margin-bottom: 220px;   
-   width: 240px; 
-   display: flex;
-   
+    float: right;
+    margin-bottom: 220px;
+    width: 240px;
+    display: flex;
+
 }
 
 
 .higienizacao img {
     float: right;
-   margin-left: 30px; 
-   width: 180px;
+    margin-left: 30px;
+    width: 180px;
 }
 
 .higienizacao h3 {
@@ -486,32 +520,32 @@ address {
 
 
 .armazenamento img {
-  float: right;
-  margin-left: 15px;
-  width: 180px;
+    float: right;
+    margin-left: 15px;
+    width: 180px;
 
 }
 
 
 .ervas img {
-   float: right;
-   margin-bottom: 20px;
-   margin-left: 14px;
-   width: 180px;
+    float: right;
+    margin-bottom: 20px;
+    margin-left: 14px;
+    width: 180px;
 }
 
 
 .agua img {
-   float: right;
-   margin-left: 14px;
-   width: 180px;
-  
+    float: right;
+    margin-left: 14px;
+    width: 180px;
+
 }
 
 
 /* criando estilo para a pagina SOBRE MIM */
 
-  
+
 .sobremim h1 {
     background-color: var(--cor-destaque);
     text-align: center;
@@ -519,22 +553,23 @@ address {
     padding: 2px;
 }
 
-.sobremim h2 
-{
+.sobremim h2 {
     text-align: left;
     font-size: 25px;
 }
-.sobremim p  {
+
+.sobremim p {
     font-size: 18px;
     margin-top: -1px;
     text-align: left;
 }
+
 .conteudoSM {
     background-color: rgba(248, 247, 247, 0.719);
     padding: 3rem;
-    border-radius: 6px;  
+    border-radius: 6px;
     max-width: 100%;
-    
+
 }
 
 .conteudo01 {
@@ -544,23 +579,24 @@ address {
 .missao {
     width: 300%;
     padding: 30px;
-    
-    
+
+
 }
+
 .missao ul li {
     font-size: 18px;
     margin-left: 30px;
 }
 
 .sobremim-img {
-    
-        min-width: 400px; 
-        width: 100%;
-        height: auto; 
-    
-    
-   
-  
+
+    min-width: 400px;
+    width: 100%;
+    height: auto;
+
+
+
+
 }
 
 /* GALERIA */
@@ -568,14 +604,23 @@ address {
 
 
 
-* { box-sizing: border-box;  }
-html { font-size: 14px; }
-body { font-family: 'Segoe UI', 'Verdana'; }
-img { 
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    font-family: 'Segoe UI', 'Verdana';
+}
+
+img {
     max-width: 60%;
     justify-content: center;
     align-items: center;
-    margin: auto; 
+    margin: auto;
 }
 
 .container {
@@ -588,18 +633,24 @@ img {
 
 .dicasnutri {
     margin: auto;
-    max-width: 549px; 
+    max-width: 549px;
 }
 
-.dicasnutri  { margin-bottom: 20px; }
+.dicasnutri {
+    margin-bottom: 20px;
+}
 
-.slider h2, .slider p { margin: 0; }
+.slider h2,
+.slider p {
+    margin: 0;
+}
 
-.voltar, .avancar{
-    position:absolute;
-    bottom:100px;
-    background-color:#FBB040;
-    color:#00A651;
+.voltar,
+.avancar {
+    position: absolute;
+    bottom: 100px;
+    background-color: #FBB040;
+    color: #00A651;
     text-decoration: none;
     z-index: 100;
     border-radius: 30px;
@@ -610,22 +661,26 @@ img {
     align-items: center;
 }
 
-.voltar{ left: 0; } 
+.voltar {
+    left: 0;
+}
 
-.avancar{ right:0; }
+.avancar {
+    right: 0;
+}
 
 
 
-.dicasnutri{
-  background-color: var(--cor-intermediaria);
+.dicasnutri {
+    background-color: var(--cor-intermediaria);
 }
 
 
 .dica h2 {
-text-align: center;
-color: var(--cor-agendar);
-  padding-top: 10px;
-  font-size: 25px;
+    text-align: center;
+    color: var(--cor-agendar);
+    padding-top: 10px;
+    font-size: 25px;
 }
 
 .dica {
@@ -640,128 +695,156 @@ color: var(--cor-agendar);
 /* regras condicionais (Media Queries) */
 
 @media screen and (min-width: 660px) {
-    nav h2 { display: none; }
-    .menu { display: flex; }
-    .menu li { width: 100%; }
-    nav { width: 80%; }
-    
+    nav h2 {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    .menu li {
+        width: 100%;
+    }
+
+    nav {
+        width: 80%;
+    }
+
 }
 
-/* Crie uma regra condicional para telas a partir de 900px */
-
-
-/* @media screen and (min-width: 900px){
-    .limitador { max-width: 900px; }
-    html { font-size: 18px; }
-} */
 
 
 /* celulares menores de 520 px  */
-@media (min-width: 350px) and (max-width: 520px){
+@media (min-width: 350px) and (max-width: 520px) {
     .destaque {
         max-width: 100%;
         height: 139px;
-        background-size: 500px; 
-        
-        }
-    
-        .destaque h2 {
-            font-size: 14px;
-            
-           
-        }
-        .destaque p {
-            font-size: 9px;
-            
-    
-        }
-        
-        .botoes {
-            font-size: 9px;
-            left:15%;
-            margin-top: 15px;
-        }
+        background-size: 500px;
+
+    }
+
+    .destaque h2 {
+        font-size: 14px;
 
 
-        .caixa {
-            max-width: 100%;
-            width: 80vw;
-            margin: 0 auto;
-            display: block;
-         }
-        
-         .caixa h2 {
-            font-size: 16px;
-            margin-top: 10px;
-            
-         }
-        
-         .caixa p {
-            font-size: 14px;
-            margin: 0 auto;
-            
-         }
-        
-         .offerservicos {
-            margin: auto;
-         }
-        
-         .offerservicos h2 {
-            font-size: 13px;
-            background-color: var(--cor-intermediaria);
-            margin: auto;
-         }
-        
-         .offerservicos p {
-            font-size: 13px;
-            font-weight: bold;
-         }
-         .offerservicos  figure {
-            margin-right: 20px;
-        
-         }
+    }
 
-         .sobremim-img {
-            display: none;
-         }
+    .destaque p {
+        font-size: 9px;
 
 
-           .missao {
-            width: 100%;
-            height: 50%;
-           }
+    }
 
-           .feira ol li {
-            
-            margin: auto;
-           }
+    .botoes {
+        font-size: 9px;
+        left: 15%;
+        margin-top: 15px;
+    }
+
+
+    .caixa {
+        max-width: 100%;
+        width: 80vw;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .caixa h2 {
+        font-size: 16px;
+        margin-top: 10px;
+
+    }
+
+    .caixa p {
+        font-size: 14px;
+        margin: 0 auto;
+
+    }
+
+    .offerservicos {
+        margin: auto;
+    }
+
+    .offerservicos h2 {
+        font-size: 13px;
+        background-color: var(--cor-intermediaria);
+        margin: auto;
+    }
+
+    .offerservicos p {
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .offerservicos figure {
+        margin-right: 20px;
+
+    }
+
+    .sobremim-img {
+        display: none;
+    }
+
+
+    .missao {
+        width: 100%;
+        height: 50%;
+    }
+
+    .feira ol li {
+
+        margin: auto;
+    }
 
 }
 
 
 /*  celular pequeno ( phones, 576px and up) */
-@media (min-width: 521px) and (max-width: 699px){  
+@media (max-width: 699px) {
 
     .destaque {
-    max-width: 100%;
-    height: 250px;
-    background-size: 700px; 
-    
+        max-width: 100%;
+        height: 250px;
+        background-size: 700px;
+
     }
 
     .destaque h2 {
         font-size: 22px;
         margin-top: -8px;
-       
+
     }
+
     .destaque p {
         font-size: 14px;
 
     }
-    
+
     .botoes {
         font-size: 14px;
-        left:16%;
+        left: 16%;
+    }
+
+
+    .dicas-img {
+        float: none;
+        margin: 0 auto 20px;
+        /* Centraliza a imagem */
+        display: block;
+        /* faz a imagem ocupar a largura total do container */
+    }
+
+    .feira img,
+    .higienizacao img,
+    .armazenamento img,
+    .ervas img,
+    .agua img {
+        float: none;
+        margin: 0 auto 20px;
+        /* centraliza as imagens */
+        display: block;
+        /* faz as imagens ocupar a largura total do container */
     }
 
 
@@ -771,172 +854,123 @@ color: var(--cor-agendar);
         width: 50vw;
         margin: 0 auto;
         display: block;
-     }
-    
-     .caixa h2 {
+    }
+
+    .caixa h2 {
         font-size: 16px;
         margin-top: 10px;
-        
-     }
-    
-     .caixa p {
-        font-size: 14px;
-        margin: 0 auto;
-     }
-    
-     .offerservicos {
-        margin: auto;
-     }
-    
-     .offerservicos h2 {
-        font-size: 13px;
-        background-color: var(--cor-intermediaria);
-        margin: auto;
-     }
-    
-     .offerservicos p {
-        font-size: 13px;
-        font-weight: bold;
-     }
-     .offerservicos  figure {
-        margin-right: 20px;
-    
-    
-     }
- }
 
-
-/*  telas medias (tablets, 768px and up) */
-@media (min-width: 700px) and (max-width: 966px) { 
-
-.destaque {
-    max-width: 100%;
-    height: 300px;
-    background-size: 970px;     
-}
-.destaque h2 {
-    font-size: 30px;
-
-}
-.destaque p {
-    font-size: 18px;
-}
-
-.botoes {
-    font-size: 16px;
-    left:18%;
-}
-
-.caixa {
-    max-width: 100%;
-    width: 90vw;
-}
-
- .caixa h2 {
-    font-size: 18px;
-    margin: auto;
-    margin-top: 20px;
- }
-
- .caixa p {
-    font-size: 14px;
-    margin-left: 10px;
- }
-
-.pqconsultar, .fotoeli, .offerservicos {
-    width: 50%;
-}
-
-.offerservicos {
-    margin: auto;
-    margin-left: 8px;
-}
- .offerservicos h2 {
-    font-size: 14px;
-    margin-top: 10px;
-
- }
- .offerservicos p {
-    font-weight: bold;
-}
-
-
- }
- 
-
-
- 
-
- 
-
-
-
-@media screen and (min-width: 720px) and (max-width: 1560px) {
-    
- 
-    .feira img {
-        flex-direction: column;
-        
-    }
-
-
-
-}
-
-/* celular */
-/* @media (max-width: 450px){
-    .destaque h2 {
-        margin-top: 20px;
-        font-size: 27px;
-        right: 2px;
-    }
-    
-    .destaque p {
-        font-size: 17px;
-        right: 2px;
-       
-    }
-
-    .botoes a {
-        font-size: 15px ;  
-    }
-
-    .destaque {
-        height: auto;
-        width:auto;
-        background-size:600px;
-    
-    }
-     
-    .caixa {
-        display: block;
-    
-    }
-    .caixa h2  {
-        font-size: 20px;
-        text-align: left;
-       
     }
 
     .caixa p {
-        font-size: 16px;
-        text-align: center;
-        margin-right: 140px;
-
+        font-size: 14px;
+        margin: 0 auto;
     }
+
+    .offerservicos {
+        margin: auto;
+    }
+
     .offerservicos h2 {
-        font-size: 15px;
-        text-align: center;
-        padding-right: 50px;
-        width: 200px;
+        font-size: 13px;
+        background-color: var(--cor-intermediaria);
+        margin: auto;
     }
 
-    .offerservicos a {
-        margin-right: 140px;
-        padding-right: auto;
-       
-    } } */
- 
+    .offerservicos p {
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .offerservicos figure {
+        margin-right: 20px;
+
+
+    }
+}
+
+
+/*  telas medias (tablets, 768px and up) */
+@media (max-width: 966px) {
+
+    .destaque {
+        max-width: 100%;
+        height: 300px;
+        background-size: 970px;
+    }
+
+    .destaque h2 {
+        font-size: 30px;
+
+    }
+
+    .destaque p {
+        font-size: 18px;
+    }
+
+    .botoes {
+        font-size: 16px;
+        left: 18%;
+    }
+
+    .caixa {
+        max-width: 100%;
+        width: 90vw;
+    }
+
+    .caixa h2 {
+        font-size: 18px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .caixa p {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+
+    .pqconsultar,
+    .fotoeli,
+    .offerservicos {
+        width: 50%;
+    }
+
+    .offerservicos {
+        margin: auto;
+        margin-left: 8px;
+    }
+
+    .offerservicos h2 {
+        font-size: 14px;
+        margin-top: 10px;
+
+    }
+
+    .offerservicos p {
+        font-weight: bold;
+    }
+
+    .dicas-img {
+        float: none;
+        margin: 0 auto 20px;
+        /* Centraliza a imagem */
+        display: block;
+        /* faz a imagem ocupar a largura total do container */
+    }
+
+    .feira img,
+    .higienizacao img,
+    .armazenamento img,
+    .ervas img,
+    .agua img {
+        float: none;
+        margin: 0 auto 20px;
+        /* centraliza as imagens */
+        display: block;
+        /* faz as imagens ocupar a largura total do container */
+    }
+
+}
 
 
 

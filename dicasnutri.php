@@ -1,17 +1,22 @@
-<?php 
+<?php
 require "inc/cabecalho.php";
 ?>
 
-<body>
-    
-    <main>
-        <div class="dicasnutri1">
-            <h1>Dicas Nutricionais</h1><div></div>
-        
-            <div class="conteudoSM">
-                <article class="feira">
-                    <h2>Fazendo boas encolhas na feira</h2> 
-                  <img src="imagens/dicafeira.jpg" alt=""> <br>
+
+
+<main>
+    <div class="dicasnutri1">
+        <h1>Dicas Nutricionais</h1>
+        <div></div>
+
+        <div class="conteudoSM">
+            <article class="feira">
+                <h2>Fazendo boas encolhas na feira</h2>
+                <div>
+                    <img src="imagens/dicafeira.jpg" alt="" class="dicas-img">
+                </div> <br>
+
+                <div>
                     <ol>
                         <li>
                             <b>Escolha os produtos da época.</b> <br>
@@ -46,16 +51,22 @@ require "inc/cabecalho.php";
                             <br>
                             “A maioria das hortaliças pode ser guardada de dois a cinco dias, com exceção das tubérculos
                             “raízes” (batata doce, beterraba, cará, cenoura, mandioca, mandioquinha-salsa, nabo,
-                            rabanete etc.), que podem ser guardadas por mais tempo”.</li>
-                    </ol> <br><br></article> 
-                   <br>
+                            rabanete etc.), que podem ser guardadas por mais tempo”.
+                        </li>
+                    </ol> <br><br>
+                </div>
+            </article>
+            <br>
 
-                    <article class="higienizacao">
-                    <h2>Higienização dos produtos</h2> 
-                    <img src="imagens/dicalavar.jpg" alt="">
-                    <br>
-                    <h3>É fundamental lavar os produtos bem e com cuidado antes de consumi-los, veja o passo-a-passo:
-                    </h3> <br>
+            <article class="higienizacao">
+                <h2>Higienização dos produtos</h2>
+                <div>
+                    <img src="imagens/dicalavar.jpg" alt="" class="dicas-img">
+                </div>
+                <br>
+                <h3>É fundamental lavar os produtos bem e com cuidado antes de consumi-los, veja o passo-a-passo:
+                </h3> <br>
+                <div>
                     <ul>
                         <li>
                             Limpar e organizar o ambiente onde o produto será higienizado.
@@ -71,115 +82,119 @@ require "inc/cabecalho.php";
                         <li>Manter sob refrigeração até a hora de servir, colocando-os protegidos em utensílios tampados
                             e limpos.</li> <br>
                         <p> <b>OBS:</b> solução clorada – utilizar o hipoclorito de sódio a 2,5% p/p de cloro ativo –
-                            seguindo a indicações de uso do fabricante para diluição do produto na água.</p> <br> <br></article>
+                            seguindo a indicações de uso do fabricante para diluição do produto na água.</p> <br> <br>
+                </div>
+            </article>
 
 
-                        <article class="armazenamento">
-                        <h2>Cuidados no armazenamento
-                            em casa</h2>
-                            
-                            <img src="imagens/dicaorganizar.jpg" alt="">
-                            <br>
-                        <p>Após a compra, os alimentos refrigerados e congelados devem ser armazenados na geladeira ou
-                            freezer o mais rápido possível, e consumidos até a data de validade do produto.
-                        </p>
-                        <p>A geladeira não deve ficar muito cheia de alimentos e as prateleiras não devem ser cobertas
-                            por panos ou toalhas, porque isso dificulta a circulação do ar frio.
-                            Nas prateleiras superiores armazene os alimentos preparados e prontos para consumo, nas
-                            prateleiras do meio os produtos pré-preparados e nas prateleiras inferiores, os alimentos
-                            crus.
-                            Os alimentos não perecíveis devem ser armazenados em prateleiras ou armários limpos,
-                            arejados e afastados dos produtos de limpeza e outros com odor forte. Outras orientações
-                            quanto à conservação do produto devem ser fornecidas pelo fabricante e devem ser seguidas
-                            pelo consumidor.</p> 
-                           </article> <br> <br> <br> <br>
+            <article class="armazenamento">
+                <h2>Cuidados no armazenamento
+                    em casa</h2>
+
+                <div>
+                    <img src="imagens/dicaorganizar.jpg" alt="" class="dicas-img">
+                </div>
+                <br>
+                <div>
+                    <p>Após a compra, os alimentos refrigerados e congelados devem ser armazenados na geladeira ou
+                        freezer o mais rápido possível, e consumidos até a data de validade do produto.
+                    </p>
+                    <p>A geladeira não deve ficar muito cheia de alimentos e as prateleiras não devem ser cobertas
+                        por panos ou toalhas, porque isso dificulta a circulação do ar frio.
+                        Nas prateleiras superiores armazene os alimentos preparados e prontos para consumo, nas
+                        prateleiras do meio os produtos pré-preparados e nas prateleiras inferiores, os alimentos
+                        crus.
+                        Os alimentos não perecíveis devem ser armazenados em prateleiras ou armários limpos,
+                        arejados e afastados dos produtos de limpeza e outros com odor forte. Outras orientações
+                        quanto à conservação do produto devem ser fornecidas pelo fabricante e devem ser seguidas
+                        pelo consumidor.</p>
+                </div>
+            </article> <br> <br> <br> <br>
 
 
-                        <article class="ervas">
-                            <h2>Ervas e Outros Condimentos</h2>
-                            <img src="imagens/dicaervas.jpg" alt="">
-                            
-                            
-                        <p>Excelente alternativa para preparar alimentos saborosos. <br>
-                            Para reduzir a quantidade de sal, veja as dicas de como usar condimentos que são saudáveis e
-                            muitas vezes mais saborosos do que o sal.</p> <br>
-                        <p> <b> Mix de ervas</b>
-                            Pode ser usado em substituição do sal refinado para preparar carnes, molhos, feijão, entre
-                            outros alimentos. Bata no liquidificador partes iguais de sal marinho, orégano, manjericão e
-                            alecrim (ervas desidratadas). Você pode variar usando semente de mostarda, cominho e pimenta
-                            do reino.
-                            <br><br>
-                            <b>Marinada</b>
-                            Use vinho, suco de laranja, suco de limão ou suco de abacaxi, e acrescente temperos como
-                            cebola, alho, alecrim, coentro, sálvia, tomilho e louro. Deixe a carne marinando na
-                            geladeira por cerca de uma hora. O tempero deixa a carne saborosa e você consegue utilizar
-                            menos sal dessa forma.
-                            <br><br>
-                            <b>Óleo de especiarias</b>
-                            Utilize azeite de oliva extravirgem, pimenta dedo-de-moça, um dente de alho, um ramo de
-                            alecrim e folhinhas de manjericão. Use o próprio vidro do azeite para juntar os
-                            ingredientes. Varie os temperos e você terá vários sabores para temperar a salada, refogar a
-                            comida ou comer com pão e torradinhas integrais.
-                            <br><br>
-                            <b>Gersal</b>
-                            Adicione ao arroz, legumes ou saladas. Para prepará-lo, misture quatro colheres de chá de
-                            semente de gergelim torrado com duas colheres de chá de sal marinho grosso. Triture e guarde
-                            em um pote fechado.
-                            <br> <br>
-                            <b>Caldo de legumes caseiro</b>
-                            Cozinhe alho, alho-poró, louro, orégano, aipo, cenoura, moranga e talos com água. Coe e
-                            congele em potes para usar em risotos, sopas e molhos.
-                        </p></article><br>
+            <article class="ervas">
+                <h2>Ervas e Outros Condimentos</h2>
+                <div>
+                    <img src="imagens/dicaervas.jpg" alt="" class="dicas-img">
+                </div>
+
+                <div>
+                    <p>Excelente alternativa para preparar alimentos saborosos. <br>
+                        Para reduzir a quantidade de sal, veja as dicas de como usar condimentos que são saudáveis e
+                        muitas vezes mais saborosos do que o sal.</p> <br>
+                    <p> <b> Mix de ervas</b>
+                        Pode ser usado em substituição do sal refinado para preparar carnes, molhos, feijão, entre
+                        outros alimentos. Bata no liquidificador partes iguais de sal marinho, orégano, manjericão e
+                        alecrim (ervas desidratadas). Você pode variar usando semente de mostarda, cominho e pimenta
+                        do reino.
+                        <br><br>
+                        <b>Marinada</b>
+                        Use vinho, suco de laranja, suco de limão ou suco de abacaxi, e acrescente temperos como
+                        cebola, alho, alecrim, coentro, sálvia, tomilho e louro. Deixe a carne marinando na
+                        geladeira por cerca de uma hora. O tempero deixa a carne saborosa e você consegue utilizar
+                        menos sal dessa forma.
+                        <br><br>
+                        <b>Óleo de especiarias</b>
+                        Utilize azeite de oliva extravirgem, pimenta dedo-de-moça, um dente de alho, um ramo de
+                        alecrim e folhinhas de manjericão. Use o próprio vidro do azeite para juntar os
+                        ingredientes. Varie os temperos e você terá vários sabores para temperar a salada, refogar a
+                        comida ou comer com pão e torradinhas integrais.
+                        <br><br>
+                        <b>Gersal</b>
+                        Adicione ao arroz, legumes ou saladas. Para prepará-lo, misture quatro colheres de chá de
+                        semente de gergelim torrado com duas colheres de chá de sal marinho grosso. Triture e guarde
+                        em um pote fechado.
+                        <br> <br>
+                        <b>Caldo de legumes caseiro</b>
+                        Cozinhe alho, alho-poró, louro, orégano, aipo, cenoura, moranga e talos com água. Coe e
+                        congele em potes para usar em risotos, sopas e molhos.
+                    </p>
+                </div>
+            </article><br>
 
 
-                        <article class="agua">
-                        <h2>Como consumir Água quando não se está habituado?</h2> 
-                        <img src="imagens/dicaagua.jpg" alt="">
-                        <br>
-                        <p>Para aqueles que tem dificuldade de beber água, abaixo segue algumas receitas de água
-                            aromatizada, no intuito de facilitar o consumo dessa preciosa e importante bebida. <br>
-                            Para prepará-la serão necessários grandes potes de vidro com tampas, bem lavados, melhor se
-                            esterilizados antes com água fervente, ou jarras d'água. <br>
-                            A bebida deve descansar na geladeira por algumas horas antes de ser consumida. Não se deve
-                            adoçar este tipo de bebida, para que não se torne calórica, lembre-se que o intuito é
-                            aumentar o consumo de água. E deve ser consumida no dia.</p> <br><br>
-                        <ul>
-                            <li> <b>Água de pepino e limão</b>
-                                Para preparar esta água com sabor natural, você vai precisar de pepinos e limões
-                                frescos. Para cada pote você vai fazer quatro ou cinco fatias finas de pepino e duas ou
-                                três fatias de limão. Para enriquecer o sabor da bebida, você também pode adicionar
-                                algumas folhas de hortelã.
-                            </li> <br>
-                            <li> <b>Água de abacaxi</b>
-                                Com a combinação perfeita: abacaxi e folhas de hortelã, se obterá uma bebida refrescante
-                                para beber quando quiser durante todo o dia. Para prepará-la, despeje em um pote 2 a 4
-                                pedaços de abacaxi e 2 ramos de hortelã. Como de costume, feche bem o frasco e deixe-o
-                                descansar na geladeira.</li> <br>
-                            <li> <b> Água de limão e gengibre</b>
-                                Para um litro de água, coloque meio limão cortado em fatias finas e um pedaço de raiz de
-                                gengibre fresco. Deixe descansar na geladeira por no mínimo uma hora antes de servir.
-                            </li> <br>
-                            <li> <b>Água de framboesa ou amora</b>
-                                Com framboesas frescas ou amoras, você pode preparar uma fantástica água aromatizada.
-                                Despeje um punhado da fruta de um pote e adicione uma ou duas fatias de limão e algumas
-                                folhas de hortelã. Feche o frasco e deixe descansar na geladeira por algumas horas antes
-                                de filtrar e servir.</li>
-                        </ul></article>
-
-
-
-
+            <article class="agua">
+                <h2>Como consumir Água quando não se está habituado?</h2>
+                <div>
+                    <img src="imagens/dicaagua.jpg" alt="" class="dicas-img">
+                </div>
+                <br>
+                <div>
+                    <p>Para aqueles que tem dificuldade de beber água, abaixo segue algumas receitas de água
+                        aromatizada, no intuito de facilitar o consumo dessa preciosa e importante bebida. <br>
+                        Para prepará-la serão necessários grandes potes de vidro com tampas, bem lavados, melhor se
+                        esterilizados antes com água fervente, ou jarras d'água. <br>
+                        A bebida deve descansar na geladeira por algumas horas antes de ser consumida. Não se deve
+                        adoçar este tipo de bebida, para que não se torne calórica, lembre-se que o intuito é
+                        aumentar o consumo de água. E deve ser consumida no dia.</p> <br><br>
+                    <ul>
+                        <li> <b>Água de pepino e limão</b>
+                            Para preparar esta água com sabor natural, você vai precisar de pepinos e limões
+                            frescos. Para cada pote você vai fazer quatro ou cinco fatias finas de pepino e duas ou
+                            três fatias de limão. Para enriquecer o sabor da bebida, você também pode adicionar
+                            algumas folhas de hortelã.
+                        </li> <br>
+                        <li> <b>Água de abacaxi</b>
+                            Com a combinação perfeita: abacaxi e folhas de hortelã, se obterá uma bebida refrescante
+                            para beber quando quiser durante todo o dia. Para prepará-la, despeje em um pote 2 a 4
+                            pedaços de abacaxi e 2 ramos de hortelã. Como de costume, feche bem o frasco e deixe-o
+                            descansar na geladeira.</li> <br>
+                        <li> <b> Água de limão e gengibre</b>
+                            Para um litro de água, coloque meio limão cortado em fatias finas e um pedaço de raiz de
+                            gengibre fresco. Deixe descansar na geladeira por no mínimo uma hora antes de servir.
+                        </li> <br>
+                        <li> <b>Água de framboesa ou amora</b>
+                            Com framboesas frescas ou amoras, você pode preparar uma fantástica água aromatizada.
+                            Despeje um punhado da fruta de um pote e adicione uma ou duas fatias de limão e algumas
+                            folhas de hortelã. Feche o frasco e deixe descansar na geladeira por algumas horas antes
+                            de filtrar e servir.</li>
                     </ul>
-            </div>
-            
+                </div>
+            </article>
         </div>
-    </main>
+    </div>
+</main>
 
-<?php 
+<?php
 require "inc/rodape.php";
 ?>
-
-    <script src="js/menu.js"></script> 
-</body>
-
-</html>
